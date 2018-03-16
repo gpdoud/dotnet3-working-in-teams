@@ -6,4 +6,6 @@ export class Student {
   SAT: number; // added this
   Major: string;
   Year: string;
+
+  constructor() {}
 }
