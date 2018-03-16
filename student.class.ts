@@ -3,6 +3,7 @@ export class Student {
   Firstname: string;
   Lastname: string;
   GPA: number;
+  SAT: number; // added this
   Major: string;
   Year: string;
 }
