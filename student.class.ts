@@ -6,5 +6,6 @@ export class Student {
   SAT: number;
   Major: string;
   Year: string;
-  Active: boolean; // added this one
+  Active: boolean; 
+  DateCreated: string;  //added this
 }
