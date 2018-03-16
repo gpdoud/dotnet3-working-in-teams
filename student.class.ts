@@ -10,4 +10,12 @@ export class Student {
   DateCreated: string;
 
   constructor() {}
+
+  Bruce(firstName: string, lastName: string, major: string, year: string){
+    this.Firstname = firstName;
+    this.Lastname = lastName;
+    this.Major = major;
+    this.Year = year;
+    console.log(`${firstName} ${lastName} is a ${year} ${major} major `)
+  }
 }
