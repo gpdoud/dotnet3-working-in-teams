@@ -20,14 +20,8 @@ Major: ${this.Major}, Year: ${this.Year}
 Active: ${this.Active}, Date Created: ${this.DateCreated}`);
 }
 
-}
-
-  Bruce(firstName: string, lastName: string, major: string, year: string){
-    this.Firstname = firstName;
-    this.Lastname = lastName;
-    this.Major = major;
-    this.Year = year;
-    console.log(`${firstName} ${lastName} is a ${year} ${major} major `)
+  public Bruce(): void{
+    console.log(`${this.Firstname} ${this.Lastname} is a ${this.Year} ${this.Major} major `);
   }
 }
 
