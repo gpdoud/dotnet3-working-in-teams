@@ -7,10 +7,12 @@ export class Student {
   Major: string;
   Year: string;
   Active: boolean; // added this one
-  datecreated: string;
+
+  constructor() {}
+}
+
 
   yourlastname(student: Student) : void{
     console.log(`The Students Last Name Is: ${this.Lastname}`)
   }
 }
-
