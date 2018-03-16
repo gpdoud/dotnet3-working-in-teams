@@ -10,7 +10,7 @@ export class Student {
   DateCreated: string;
   constructor(FirstName: string){
     function Bucher(){
-      console.log("My student name is" + FirstName + " .")
+      console.log("My student name is " + FirstName + " .")
   }
 
 
