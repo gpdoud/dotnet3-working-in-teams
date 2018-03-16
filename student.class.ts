@@ -11,12 +11,8 @@ export class Student {
 
   constructor() {}
 
-  	Wesselman(firstname: string, lastname: string, major: string, year: string) {
-  		this.Firstname = firstname;
-  		this.Lastname = lastname;
-  		this.Major = major;
-  		this.Year = year;
-  		console.log(`${firstname} ${lastname}, is a ${year} ${major} major `)
+  	Wesselman(firstname: string) {  		
+  		console.log(`My student's first name is ${firstname}.`)
   	}
   	
 }
