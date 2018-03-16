@@ -9,5 +9,21 @@ export class Student {
   Active: boolean; // added this one
   DateCreated: string;
 
-  constructor() {}
+  constructor(
+  			  Firstname: string,
+  			  Lastname: string) {
+  	
+  	this.Firstname = Firstname;
+  	this.Lastname = Lastname;
+  }
+  printOut(): void{
+  	console.log(`Firstname=${this.Firstname}, Lastname= ${this.Lastname}`);
+  }
 }
+let stnt : Student [] = [
+	new Student ("Bob", "Evans")
+];
+for (let student of stnt){
+	student.printOut();
+}
+
