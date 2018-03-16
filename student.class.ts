@@ -7,12 +7,20 @@ export class Student {
   Major: string;
   Year: string;
   Active: boolean; // added this one
+  DateCreated: string;
 
   constructor() {}
-}
 
+  Bruce(firstName: string, lastName: string, major: string, year: string){
+    this.Firstname = firstName;
+    this.Lastname = lastName;
+    this.Major = major;
+    this.Year = year;
+    console.log(`${firstName} ${lastName} is a ${year} ${major} major `)
+  }
 
-  yourlastname(student: Student) : void{
-    console.log(`The Students Last Name Is: ${this.Lastname}`)
+  Brown(student: Student) : void{
+    console.log(`Name: ${this.Lastname}, ${this.Firstname} | GPA: ${this.GPA} | Major: ${this.Major}`)
   }
 }
+
