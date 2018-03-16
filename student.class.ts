@@ -9,8 +9,8 @@ export class Student {
   Active: boolean; // added this one
   datecreated: string;
 
-  yourlastname(lastname: string){
-    console.log(`${this.Lastname}`)
+  yourlastname(student: Student){
+    console.log(`The Students Last Name Is: ${this.Lastname}`)
     return;
   }
 }
