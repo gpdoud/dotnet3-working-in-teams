@@ -8,4 +8,4 @@ export class Student {
   Year: string;
   Active: boolean; 
   DateCreated: string;  //added this
-}
+} 
