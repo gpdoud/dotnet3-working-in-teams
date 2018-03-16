@@ -19,7 +19,7 @@ export class Student {
     console.log(`${firstName} ${lastName} is a ${year} ${major} major `)
   }
 
-  Brown(student: Student) : void{
+  Brown() : void{
     console.log(`Name: ${this.Lastname}, ${this.Firstname} | GPA: ${this.GPA} | Major: ${this.Major}`)
   }
 }
