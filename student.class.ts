@@ -7,4 +7,7 @@ export class Student {
   Major: string;
   Year: string;
   Active: boolean; // added this one
+  DateCreated: string;
+
+  constructor() {}
 }
