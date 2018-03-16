@@ -11,6 +11,7 @@ export class Student {
 
   constructor() {}
 
+
   public Baugus() : void  {
     console.log(`Baugus Function called
 Id: ${this.Id}, Name: ${this.Firstname} ${this.Lastname}
@@ -20,3 +21,13 @@ Active: ${this.Active}, Date Created: ${this.DateCreated}`);
 }
 
 }
+
+  Bruce(firstName: string, lastName: string, major: string, year: string){
+    this.Firstname = firstName;
+    this.Lastname = lastName;
+    this.Major = major;
+    this.Year = year;
+    console.log(`${firstName} ${lastName} is a ${year} ${major} major `)
+  }
+}
+
