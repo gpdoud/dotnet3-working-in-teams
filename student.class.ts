@@ -8,4 +8,10 @@ export class Student {
   Year: string;
   Active: boolean; // added this one
   datecreated: string;
+
+  yourlastname(lastname: string){
+    console.log(`${this.Lastname}`)
+    return;
+  }
 }
+
